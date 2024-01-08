@@ -71,18 +71,20 @@ Porkplayer 2只有Windows版本，使用Visual Studio 2019作为IDE，使用了V
 
 - openMedia()
     
-    ![openMedia(1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd17d0bb-4d76-4209-ae4f-e79f3457ecde/openMedia(1).png)
+    ![openMedia(1)](https://github.com/xuzhaozheng/Porkplayer/assets/59351814/7845d118-9d64-4f88-868d-f7417493b4b3)
+
     
 - refreshText()
     
-    ![refreshTimeText(1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8e59066-a71b-4ac8-837d-99a9f1ce103b/refreshTimeText(1).png)
-    
+    ![refreshTimeText(1)](https://github.com/xuzhaozheng/Porkplayer/assets/59351814/03713543-4856-40a6-b839-a1e29024072d)
+
 
 ### 3.2 **视频解码流程**
 
 **3.2.1 预处理**
 
-![preparation(1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e4fcaad-6cb2-4323-8ca8-5d503baf9682/preparation(1).png)
+![preparation(1)](https://github.com/xuzhaozheng/Porkplayer/assets/59351814/fbaaaa62-facc-4b96-8cdb-1320435703db)
+
 
 1. 选取文件
 2. 返回文件名与文件路径
@@ -92,7 +94,8 @@ Porkplayer 2只有Windows版本，使用Visual Studio 2019作为IDE，使用了V
 
 **3.2.2 解码渲染**
 
-![decode(3).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83ac538a-6270-42fc-9129-855af5d68a3c/decode(3).png)
+![decode(3)](https://github.com/xuzhaozheng/Porkplayer/assets/59351814/84a5f198-0644-4399-96da-44a7c43b2a36)
+
 
 1. 解封装
 2. 解码
@@ -106,7 +109,8 @@ Porkplayer 2只有Windows版本，使用Visual Studio 2019作为IDE，使用了V
 
 ## 三、GUI设计
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e586e5b5-8813-43df-8d88-fce9568fada8/Untitled.png)
+![Untitled](https://github.com/xuzhaozheng/Porkplayer/assets/59351814/a9c123f4-5bdf-4d80-89d4-d007088b5c4a)
+
 
 - 上方放置TextLabel作时间、速度信息的显示
 - 上方放置PushButton作设置按钮
@@ -117,7 +121,8 @@ Porkplayer 2只有Windows版本，使用Visual Studio 2019作为IDE，使用了V
 
 ## 四、模块设计
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/277ea0c3-0a46-4eba-a868-5ac177273a15/Untitled.png)
+![Class Overview](https://github.com/xuzhaozheng/Porkplayer/assets/59351814/328ab55d-ee00-408a-9de8-f2e170196942)
+
 
 - main.cpp，main函数入口
 - mainwindow.cpp，处理UI与交互，将参数传递给mpvwidget.cpp
